@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>
+        nhà sách ma phương
+    </title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="shortcut icon" type="image/png" href="image/icon.PNG" id="iconkey">
+    <link href="./fontawesome-free-5.12.1-web/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="./newfont/d2.ttf">
+</head>
+
+<body>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!--
+    <div id="part1">
+        <div style="float: left;">
+            <i class="fa fa-home">          
+                <span style="margin-left: 10px;font-family: mama;">Nhà sách Ma Phương</span>
+            </i>
+        </div>
+    </div>
+    -->
+    <div id="part1">
+        <div style="float: left;">
+            <img src="./image/icon.PNG" style="width: 30px;height: 30px;">
+        </div>
+        <div style="float: left;">
+            <span style="margin-left: 10px;font-family: mama;color: green;font-size: 20px;">Nhà sách Ma Phương</span>
+        </div>
+    </div>
+
+    <div>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#" style="color: green;"><i class="fa fa-bars"></i></a>
+                </div>
+                <ul class="nav navbar-nav" id="thanhtieude">
+                    <li>
+                        <a href="#" onclick="TrinhTham()">Trinh Thám</a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="CoTich()">Cổ Tích</a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="KhoaHoc()">Khoa Học</a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="NguNgon()">Ngụ Ngôn</a>
+                    </li>
+                    <li>
+                        <a href="#" onclick="VienTuong()">Viễn Tưởng</a>
+                    </li>
+                    <li>
+                        <a href="#thongtinnhasach">Thông Tin</a>
+                    </li>
+                    <li>
+                        <a href="#lienhe">Liên Hệ</a>
+                    </li>
+                </ul>
+                <form class="navbar-form navbar-right" action="">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search" name="search">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="submit">
+                                <i class="glyphicon glyphicon-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </nav>
+    </div>
+
+    <div id="gioithieutruyen" class="container">
+        <div class="image" style="padding: 20px;">
+            <div>
+                <a href="#"><img src="./image/TrinhThamImage/trinhtham1.jpg" class="img" id="img1"></a>
+            </div>
+            <div style="margin-top: 10px;" class="text-center">
+                <a href="#" class="btn btn-info">Read</a>
+            </div>
+            <div class="ten">
+                <p id="t1">Câu chuyện án mạng đêm cuối năm</p>
+                <p id="tg1">Của AGATHA CHRISTIE</p>
+            </div>
+            <div style="margin-top: 20px;">
+                <a href="#"><img src="./image/TrinhThamImage/trinhtham2.jpg" class="img" id="img2"></a>
+            </div>
+            <div style="margin-top: 10px;" class="text-center">
+                <a href="#" class="btn btn-info">Read</a>
+            </div>
+            <div class="ten">
+                <p id="t2">Chuỗi án mạng A.B.C</p>
+                <p id="tg2">Của AGATHA CHRISTIE</p>
+            </div>
+        </div>
+        <div class="image" style="padding: 20px;">
+            <div>
+                <a href="#"><img src="./image/TrinhThamImage/trinhtham3.jpg" class="img" id="img3"></a>
+            </div>
+            <div style="margin-top: 10px;" class="text-center">
+                <a href="#" class="btn btn-info">Read</a>
+            </div>
+            <div class="ten">
+                <p id="t3">Mặt trời mọc trông bóng Hoàng Hôn</p>
+                <p id="tg3">Của Mộc Tử Lãng</p>
+            </div>
+            <div style="margin-top: 20px;">
+                <a href="#"><img src="./image/TrinhThamImage/trinhtham4.jpg" class="img" id="img4"></a>
+            </div>
+            <div style="margin-top: 10px;" class="text-center">
+                <a href="#" class="btn btn-info">Read</a>
+            </div>
+            <div class="ten">
+                <p id="t4">Quỷ Hàm Thiên Hạ</p>
+                <p id="tg4">Của Mộc Tử Lãng</p>
+            </div>
+        </div>
+        <div class="image" style="padding: 20px;">
+            <div>
+                <a href="#"><img src="./image/TrinhThamImage/trinhtham5.jpg" class="img" id="img5"></a>
+            </div>
+            <div style="margin-top: 10px;" class="text-center">
+                <a href="#" class="btn btn-info">Read</a>
+            </div>
+            <div class="ten">
+                <p id="t5">Tình yêu phù thủy (biệt thự bạch mã)</p>
+                <p id="tg5">Của AGATHA CHRISTIE</p>
+            </div>
+            <div style="margin-top: 20px;">
+                <a href="#"><img src="./image/TrinhThamImage/trinhtham6.jpg" class="img" id="img6"></a>
+            </div>
+            <div style="margin-top: 10px;" class="text-center">
+                <a href="#" class="btn btn-info">Read</a>
+            </div>
+            <div class="ten">
+                <p id="t6">Bộ phim khó quay</p>
+                <p id="tg6">Của ALFRED HTCHCOOK</p>
+            </div>
+        </div>
+        <div class="image" style="padding: 20px;">
+            <div>
+                <a href="#"><img src="./image/TrinhThamImage/trinhtham7.jpg" class="img" id="img7"></a>
+            </div>
+            <div style="margin-top: 10px;" class="text-center">
+                <a href="#" class="btn btn-info">Read</a>
+            </div>
+            <div class="ten">
+                <p id="t7">Đồng hồ la hét</p>
+                <p id="tg7">Của ALFRED HTCHCOOK</p>
+            </div>
+            <div style="margin-top: 20px;">
+                <a href="#"><img src="./image/TrinhThamImage/trinhtham8.jpg" class="img" id="img8"></a>
+            </div>
+            <div style="margin-top: 10px;" class="text-center">
+                <a href="#" class="btn btn-info">Read</a>
+            </div>
+            <div class="ten">
+                <p id="t8">Con gà đội vương niệm</p>
+                <p id="tg8">Của ALFRED HTCHCOOK</p>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="container">
+            <h1 style="color: green;">Nhà sách số một Việt Nam</h1>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="./image/slideshow/slide1.jpg" style="width:100%;height: 550px;">
+                        <div class="carousel-caption">
+                            <h3>Ảnh 1</h3>
+                            <p>Không gian rộng lớn, đa màu sắc</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="./image/slideshow/slide2.jpg" style="width:100%; height: 550px;">
+                        <div class="carousel-caption">
+                            <h3>Ảnh 2</h3>
+                            <p>Địa điểm đẹp</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="./image/slideshow/slide3.jpg" style="width:100%; height: 550px;">
+                        <div class="carousel-caption">
+                            <h3>Ảnh 3</h3>
+                            <p>Giải thưởng</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="./image/anhnendep/500113.jpg" style="width:100%; height: 550px;">
+                        <div class="carousel-caption">
+                            <h3>Ảnh 4</h3>
+                            <p>Ảnh nền đẹp</p>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="./image/anhnendep/499471.jpg" style="width:100%; height: 550px;">
+                        <div class="carousel-caption">
+                            <h3>Ảnh 5</h3>
+                            <p>Ảnh nền đẹp</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" id="thongtinnhasach">
+        <h2 style="color: rgb(255, 255, 255);" id="tieudechinh"><b>Thông tin về doanh nghiệp</b></h2>
+        <div style="margin-top: 50px;">
+            <div class="thongtindoanhnghiep1">
+                <p>Công ty Ma Phương, được thành lập năm 2018</p>
+                <p>Công ty có chi nhánh tại 5 tỉnh thành trên cả nước.</p>
+                <p>Hà Nội, Hưng Yên, Thái Bình, Đà Nẵng, Thành phố Hồ Chí Minh.</p>
+                <p>Miễn phí vận chuyển và giao hàng.</p>
+            </div>
+            <div class="thongtindoanhnghiep11">
+                <p>Cung cấp hàng trăm đầu sách cho các em độ tuổi thiếu niên nhi đồng</p>
+                <p>Khu vực bờ hồ Tây có không gian rộng, thoáng đãng.</p>
+                <p>Nhân viên nhiệt tình, sẵn sàng giúp đỡ.</p>
+                <p>Có các dịch vụ cafe, nước giải khát.</p>
+            </div>
+        </div>
+
+        <div style="margin-top: 220px;clear: both;">
+            <div class="thongtindoanhnghiep2">
+                <h2 style="color: rgb(255, 255, 255);"><b>Mục tiêu</b></h2>
+                <p style="margin-top: 30px;">Đưa doanh nghiệp trở thành doanh nghiệp hàng đầu Việt Nam</p>
+                <p>Nhập thêm nhiều đầu sách với nội dung phong phú.</p>
+                <p>Mở rộng thêm chi nhánh tại các tỉnh thành trên cả nước.</p>
+                <p>Đưa thêm các dịch vụ để phục vụ cho các độc giả nhí.</p>
+            </div>
+            <div class="thongtindoanhnghiep22">
+                <h2 style="color: rgb(255, 255, 255);"><b>Video quảng cáo</b></h2>
+                <video width="400" height="240" controls>
+                    <source src="./video/gioithieudoanhnghiep.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <div id="dangnhap">
+        <div id="email_pass">
+            <div class="form-group">
+                <label for="usr" style="color: black;">Email:</label>
+                <input type="text" class="form-control" id="usr" style="width: 80%;" placeholder="Enter Your Email....">
+            </div>
+            <div class="form-group">
+                <label for="usr" style="color: black;">Password:</label>
+                <input type="text" class="form-control" id="pass" style="width: 80%;" placeholder="Enter Your Password....">
+            </div>
+            <div class="form-group">
+                <button type="button" class="btn btn-success" style="float: left;">Đăng nhập</button>
+                <button type="button" class="btn btn-success" style="float: left;margin-left: 20px;">Xem đối tác</button>
+            </div>
+        </div>
+        <div id="trietly">
+            <h2>Triết lý</h2>
+            <p style="font-style: italic;">" Sách là kho tàng chứa tất cả của cải tinh thần của loài người. "</p>
+            <p style="font-style: italic;">" Không có gì có thể thay thế văn hóa đọc. "</p>
+        </div>
+    </div>
+
+    <div id="lienhe">
+        <div id="lienhe1">
+            <div>
+                <p style="font-style: italic;">Số điện thoại: 0398851616.</p>
+            </div>
+            <div>
+                <p style="font-style: italic;">Địa chỉ Email: maithaison1998@gmail.com.</p>
+            </div>
+            <div>
+                <p style="font-style: italic;">Địa chỉ Chi nhánh Hà Nội: 445/60 Lạc Long Quân, Phường Xuân La</p>
+                <p style="font-style: italic;">Quận Tây Hồ, Thành phố Hà Nội.</p>
+            </div>
+        </div>
+        <div id="lienhe2">
+            <div style="float: left;">
+                <a href="#" style="color: white;" class="bieutuong"><i class="fab fa-facebook-f"></i></a>
+            </div>
+            <div style="float: left;margin-left: 50px;">
+                <a href="#" style="color: white;" class="bieutuong">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+            <div style="float: left;margin-left: 50px;">
+                <a href="#" style="color: white;" class="bieutuong"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div style="float: left;margin-left: 50px;">
+                <a href="#" style="color: white;" class="bieutuong"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div id="googlemapimage">
+        <img src="./image/googlemap.PNG" style="width: 100%;">
+    </div>
+
+    <script src="myScripts.js"></script>
+</body>
+
+</html>
